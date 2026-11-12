@@ -50,6 +50,12 @@ Execute a aplicação com Maven:
 mvn clean javafx:run
 ```
 
+Para iniciar a aplicação em modo de depuração:
+
+```bash
+mvn clean javafx:run@debug
+```
+
 Também é possível abrir o projeto em uma IDE compatível com Maven e executar a classe principal:
 
 ```text
